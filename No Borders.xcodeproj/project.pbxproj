@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F32CFAD1FD5EC5800E3911B /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32CFAC1FD5EC5800E3911B /* AudioVC.swift */; };
+		3F39CDCE1FA68EA100B6D8B7 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F39CDCD1FA68EA100B6D8B7 /* SpotifyAuthentication.framework */; };
+		3F39CDD01FA68EAD00B6D8B7 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F39CDCF1FA68EAD00B6D8B7 /* SpotifyAudioPlayback.framework */; };
+		3F71BA3A1FD4C5D9004AA82A /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71BA391FD4C5D9004AA82A /* SongListView.swift */; };
 		3F90F47F1F8AB4510022A01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90F47E1F8AB4510022A01D /* AppDelegate.swift */; };
 		3F90F4811F8AB4510022A01D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90F4801F8AB4510022A01D /* ViewController.swift */; };
 		3F90F4841F8AB4510022A01D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F90F4821F8AB4510022A01D /* Main.storyboard */; };
 		3F90F4871F8AB4510022A01D /* No_Borders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F90F4851F8AB4510022A01D /* No_Borders.xcdatamodeld */; };
 		3F90F4891F8AB4510022A01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F90F4881F8AB4510022A01D /* Assets.xcassets */; };
 		3F90F48C1F8AB4510022A01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F90F48A1F8AB4510022A01D /* LaunchScreen.storyboard */; };
+		3F90F4981F8ADFF50022A01D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90F4971F8ADFF50022A01D /* Alert.swift */; };
+		3FF044F21FAA7F7800D0E5D0 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF044F11FAA7F7800D0E5D0 /* SpotifyMetadata.framework */; };
+		3FF044F61FAFEF2200D0E5D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF044F51FAFEF2200D0E5D0 /* AudioToolbox.framework */; };
+		84B3D8B75A6E3366C1196D83 /* Pods_No_Borders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CB64E125D71EC0E160526D /* Pods_No_Borders.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1B36B91FA693BD008B3BB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F1B36BA1FA693D4008B3BB6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3F32CFAC1FD5EC5800E3911B /* AudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		3F39CDCD1FA68EA100B6D8B7 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		3F39CDCF1FA68EAD00B6D8B7 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAudioPlayback.framework; path = "../../../../Downloads/ios-sdk-beta-25/SpotifyAudioPlayback.framework"; sourceTree = "<group>"; };
+		3F71BA391FD4C5D9004AA82A /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
 		3F90F47B1F8AB4510022A01D /* No Borders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Borders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F90F47E1F8AB4510022A01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F90F4801F8AB4510022A01D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		3F90F4881F8AB4510022A01D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F90F48B1F8AB4510022A01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F90F48D1F8AB4510022A01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F90F4971F8ADFF50022A01D /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		3FF044ED1FAA7F1200D0E5D0 /* No Borders-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "No Borders-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FF044F11FAA7F7800D0E5D0 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		3FF044F51FAFEF2200D0E5D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3FF044F71FAFEF2200D0E5D0 /* No Borders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "No Borders.entitlements"; sourceTree = "<group>"; };
+		4B5183E89FE145D253CBF8D2 /* Pods-No Borders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No Borders.release.xcconfig"; path = "Pods/Target Support Files/Pods-No Borders/Pods-No Borders.release.xcconfig"; sourceTree = "<group>"; };
+		68CB64E125D71EC0E160526D /* Pods_No_Borders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_No_Borders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24F9C0000A06015FA2AB333 /* Pods-No Borders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No Borders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-No Borders/Pods-No Borders.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F39CDCE1FA68EA100B6D8B7 /* SpotifyAuthentication.framework in Frameworks */,
+				3FF044F21FAA7F7800D0E5D0 /* SpotifyMetadata.framework in Frameworks */,
+				3F39CDD01FA68EAD00B6D8B7 /* SpotifyAudioPlayback.framework in Frameworks */,
+				3FF044F61FAFEF2200D0E5D0 /* AudioToolbox.framework in Frameworks */,
+				84B3D8B75A6E3366C1196D83 /* Pods_No_Borders.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DC674B12DDA1BF5321A6345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D24F9C0000A06015FA2AB333 /* Pods-No Borders.debug.xcconfig */,
+				4B5183E89FE145D253CBF8D2 /* Pods-No Borders.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F14BEFA1FA68DF00079A564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF044F51FAFEF2200D0E5D0 /* AudioToolbox.framework */,
+				3FF044F11FAA7F7800D0E5D0 /* SpotifyMetadata.framework */,
+				3F1B36BA1FA693D4008B3BB6 /* SystemConfiguration.framework */,
+				3F1B36B91FA693BD008B3BB6 /* AVFoundation.framework */,
+				3F39CDCF1FA68EAD00B6D8B7 /* SpotifyAudioPlayback.framework */,
+				3F39CDCD1FA68EA100B6D8B7 /* SpotifyAuthentication.framework */,
+				68CB64E125D71EC0E160526D /* Pods_No_Borders.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F90F4721F8AB4510022A01D = {
 			isa = PBXGroup;
 			children = (
+				3F14BEFA1FA68DF00079A564 /* Frameworks */,
 				3F90F47D1F8AB4510022A01D /* No Borders */,
 				3F90F47C1F8AB4510022A01D /* Products */,
+				1DC674B12DDA1BF5321A6345 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +108,18 @@
 		3F90F47D1F8AB4510022A01D /* No Borders */ = {
 			isa = PBXGroup;
 			children = (
+				3FF044F71FAFEF2200D0E5D0 /* No Borders.entitlements */,
 				3F90F47E1F8AB4510022A01D /* AppDelegate.swift */,
 				3F90F4801F8AB4510022A01D /* ViewController.swift */,
+				3F90F4971F8ADFF50022A01D /* Alert.swift */,
+				3F71BA391FD4C5D9004AA82A /* SongListView.swift */,
+				3F32CFAC1FD5EC5800E3911B /* AudioVC.swift */,
 				3F90F4821F8AB4510022A01D /* Main.storyboard */,
 				3F90F4881F8AB4510022A01D /* Assets.xcassets */,
 				3F90F48A1F8AB4510022A01D /* LaunchScreen.storyboard */,
 				3F90F48D1F8AB4510022A01D /* Info.plist */,
 				3F90F4851F8AB4510022A01D /* No_Borders.xcdatamodeld */,
+				3FF044ED1FAA7F1200D0E5D0 /* No Borders-Bridging-Header.h */,
 			);
 			path = "No Borders";
 			sourceTree = "<group>";
@@ -74,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F90F4901F8AB4510022A01D /* Build configuration list for PBXNativeTarget "No Borders" */;
 			buildPhases = (
+				86FF6DBEED424ED47DAE7459 /* [CP] Check Pods Manifest.lock */,
 				3F90F4771F8AB4510022A01D /* Sources */,
 				3F90F4781F8AB4510022A01D /* Frameworks */,
 				3F90F4791F8AB4510022A01D /* Resources */,
+				CAD048CDE404D27284012E8F /* [CP] Embed Pods Frameworks */,
+				DD26F37E2B211E0771B70749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,12 +154,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jeremy Rodriguez";
 				TargetAttributes = {
 					3F90F47A1F8AB4510022A01D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 68BL68SKRK;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -134,14 +201,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86FF6DBEED424ED47DAE7459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-No Borders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD048CDE404D27284012E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-No Borders/Pods-No Borders-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-No Borders/Pods-No Borders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD26F37E2B211E0771B70749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-No Borders/Pods-No Borders-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F90F4771F8AB4510022A01D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3F90F4871F8AB4510022A01D /* No_Borders.xcdatamodeld in Sources */,
+				3F32CFAD1FD5EC5800E3911B /* AudioVC.swift in Sources */,
 				3F90F4811F8AB4510022A01D /* ViewController.swift in Sources */,
+				3F90F4981F8ADFF50022A01D /* Alert.swift in Sources */,
 				3F90F47F1F8AB4510022A01D /* AppDelegate.swift in Sources */,
+				3F71BA3A1FD4C5D9004AA82A /* SongListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +301,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -185,7 +311,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -208,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,7 +358,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -236,7 +368,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -253,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -264,25 +400,58 @@
 		};
 		3F90F4911F8AB4510022A01D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24F9C0000A06015FA2AB333 /* Pods-No Borders.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "No Borders/No Borders.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68BL68SKRK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "No Borders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JeremyRodriguez.No-Borders";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "No Borders/No Borders-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		3F90F4921F8AB4510022A01D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5183E89FE145D253CBF8D2 /* Pods-No Borders.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "No Borders/No Borders.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68BL68SKRK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "No Borders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JeremyRodriguez.No-Borders";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "No Borders/No Borders-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -305,6 +474,7 @@
 				3F90F4921F8AB4510022A01D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
